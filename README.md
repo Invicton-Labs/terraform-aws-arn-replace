@@ -6,7 +6,7 @@ Replaces portions of a given ARN with provided values. An example use case might
 
 ```
 module "arn-replace" {
-  source = "Invicton-Labs/arn-replace.aws"
+  source = "Invicton-Labs/arn-replace/aws"
   arn    = "arn:aws:secretsmanager:us-east-1:123456789123:secret:my-secret"
   region = "us-west-2"
 }
